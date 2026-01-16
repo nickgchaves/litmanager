@@ -12,7 +12,8 @@ private:
 
 public:
     Book();
-    Book(std::string t, std::string a, std::string pDate, std::string sReadDate, std::string eReadDate, std::string rStatus );
+    Book(std::string newTitle, std::string newAuthor, std::string newPubDate, 
+        std::string newStartReadDate, std::string newEndReadDate, std::string newReadStatus);
 
     // setter methods
     void setTitle(std::string newTitle);
