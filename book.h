@@ -11,6 +11,7 @@ private:
     std::string readStatus;
 
 public:
+    // constructors
     Book();
     Book(std::string newTitle, std::string newAuthor, std::string newPubDate, 
         std::string newStartReadDate, std::string newEndReadDate, std::string newReadStatus);
