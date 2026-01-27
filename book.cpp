@@ -8,15 +8,16 @@ Book::Book(){
     endReadDate = "Unknown";
     readStatus = "Unknown";
 }
+
 Book::Book(std::string newTitle, std::string newAuthor, std::string newPubDate, 
     std::string newStartReadDate, std::string newEndReadDate, std::string newReadStatus){
         
-    title = t;
-    author = a;
-    pubDate = pDate;
-    startReadDate = sReadDate;
-    endReadDate = eReadDate;
-    readStatus = rStatus;
+    title = newTitle;
+    author = newAuthor;
+    pubDate = newPubDate;
+    startReadDate = newStartReadDate;
+    endReadDate = newEndReadDate;
+    readStatus = newReadStatus;
 }
 
 // setter methods
