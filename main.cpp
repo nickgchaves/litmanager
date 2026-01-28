@@ -6,7 +6,8 @@
 // forward declarations
 void displayMenu();
 
-int main(){
+int main()
+{
 
     std::cout << "Hello! Welcome to my book tracker :)" << std::endl;
 	std::cout << "Here you can track what books you've read, as well as rate and review them!" << std::endl;
@@ -14,12 +15,14 @@ int main(){
     std::vector<Book> userLibrary;
 
     bool runProgram = true;
-    while(runProgram){
+    while(runProgram)
+    {
         displayMenu();
 	    int menuOption;
 	    std::cin >> menuOption;
 
-        switch(menuOption){
+        switch(menuOption)
+        {
             case 1:
                 std::cout << "Test 1" << std::endl;
                 break;
@@ -39,7 +42,8 @@ int main(){
 	return 0;
 }
 
-void displayMenu(){
+void displayMenu()
+{
 
 	std::cout << "---Please select from the options below---" << std::endl;
     std::cout << "1.) Add new book" << std::endl;

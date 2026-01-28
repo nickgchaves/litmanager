@@ -1,7 +1,8 @@
 #pragma once
 #include <string>
 
-class Book{
+class Book
+{
 private:
 	std::string title;
     std::string author;

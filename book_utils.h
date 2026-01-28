@@ -1,6 +1,7 @@
 #pragma once
 
-class Book_utils{
+class Book_utils
+{
 private:
 
 public:
